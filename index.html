@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Portofolio pribadi Ridwan Suganda, mahasiswa Sistem Informasi dengan minat pada desain komunikasi visual dan kreativitas digital.">
+  <title>Ridwan Suganda | Personal Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Navigasi utama">
+      <a class="brand" href="#home">RS<span>.</span></a>
+      <button class="menu-toggle" id="menuToggle" aria-label="Buka menu" aria-expanded="false">☰</button>
+      <div class="nav-links" id="navLinks">
+        <a href="#home">Home</a>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact" class="nav-contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero container" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow">PERSONAL PORTFOLIO</p>
+        <h1>Halo, saya <span>Ridwan Suganda.</span></h1>
+        <h2>Mahasiswa Sistem Informasi &amp; Creative Enthusiast.</h2>
+        <p class="hero-text">Saya tertarik pada dunia teknologi dan desain komunikasi visual. Saya senang mengeksplorasi ide, visual, dan cara kreatif untuk menyampaikan informasi.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#about">Kenali Saya</a>
+          <a class="button button-outline" href="#contact">Hubungi Saya</a>
+        </div>
+        <p class="hero-note">Terus belajar, berkembang, dan menciptakan hal bermakna.</p>
+      </div>
+      <div class="hero-visual">
+        <div class="photo-frame">
+          <img class="profile-photo" src="profile.jpg" alt="Foto profil Ridwan Suganda">
+        </div>
+        <div class="floating-note"><span class="note-dot"></span> Open to learning</div>
+        <div class="decor decor-one"></div>
+        <div class="decor decor-two"></div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="about">
+      <div class="container narrow">
+        <p class="eyebrow">ABOUT ME</p>
+        <h2 class="section-title">Tentang Saya</h2>
+        <p class="section-lead">Saya adalah mahasiswa Sistem Informasi di Universitas Pamulang yang memiliki ketertarikan pada Desain Komunikasi Visual (DKV), khususnya desain grafis, editing foto, pemilihan warna, tipografi, dan pembuatan konten visual.</p>
+        <p>Saya melihat desain sebagai cara untuk menyampaikan informasi, ide, dan pesan melalui perpaduan gambar, tulisan, warna, serta elemen visual lainnya. Saya ingin terus mengembangkan kreativitas dan kemampuan agar dapat menghasilkan karya yang menarik, informatif, dan memiliki nilai estetika.</p>
+        <p>Ke depannya, saya berharap dapat menjadi pribadi yang profesional dan mampu menghasilkan karya bermanfaat serta mengikuti perkembangan teknologi digital.</p>
+      </div>
+    </section>
+
+    <section class="section container" id="education">
+      <p class="eyebrow">EDUCATION</p>
+      <h2 class="section-title">Pendidikan</h2>
+      <div class="education-card">
+        <div class="education-mark">UP</div>
+        <div>
+          <h3>Universitas Pamulang</h3>
+          <p>Program Studi Sistem Informasi</p>
+          <span class="muted">Sedang menempuh pendidikan</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section-soft" id="projects">
+      <div class="container">
+        <p class="eyebrow">MY PROJECTS</p>
+        <h2 class="section-title">Proyek &amp; Karya</h2>
+        <div class="empty-project">
+          <div class="empty-icon">✦</div>
+          <h3>Sedang menyiapkan karya pertama</h3>
+          <p>Saat ini saya sedang belajar dan mengembangkan kemampuan di bidang Sistem Informasi serta desain visual. Bagian ini akan diperbarui seiring bertambahnya proyek dan karya yang saya buat.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="section container" id="contact">
+      <div class="contact-panel">
+        <p class="eyebrow">GET IN TOUCH</p>
+        <h2 class="section-title">Mari Terhubung</h2>
+        <p class="contact-intro">Punya pertanyaan atau ingin berdiskusi? Silakan hubungi saya melalui kontak berikut.</p>
+        <div class="contact-list">
+          <a href="mailto:sugandaridwan20@gmail.com"><span class="contact-label">Email</span><strong>sugandaridwan20@gmail.com</strong></a>
+          <a href="https://wa.me/6283840125471" target="_blank" rel="noopener noreferrer"><span class="contact-label">WhatsApp</span><strong>083840125471</strong></a>
+        </div>
+        <a class="button button-primary" href="https://wa.me/6283840125471" target="_blank" rel="noopener noreferrer">Hubungi via WhatsApp ↗</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer-inner">
+      <a class="brand" href="#home">RS<span>.</span></a>
+      <p>© <span id="year"></span> Ridwan Suganda. Dibuat dengan sepenuh hati.</p>
+      <a href="#home" class="back-top">Kembali ke atas ↑</a>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
